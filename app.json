@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "OddsEdge Pro",
+    "slug": "oddsedge-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0f0f23"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oddsedge.sportsapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0f23"
+      },
+      "package": "com.oddsedge.sportsapp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "sportradarApiKey": "lGcQeGSVnA97jWyLZYR9dnmEvdlRJveiqVCukj8Q"
+    }
+  }
+}
